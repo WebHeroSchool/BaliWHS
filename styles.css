@@ -2,11 +2,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     width:100%;
 }
 
@@ -117,8 +117,8 @@
     }
 
     .header {
-        margin-bottom: 19px;
-        padding: 32px 34px;
+        margin-bottom: -12px;
+        padding: 42px 39px;
 
     }
 
@@ -135,7 +135,7 @@
     }
 
     .main__subtitle {
-        margin: -11px 31px 30px 67px;
+        margin: -11px 31px 30px 74px;
         font: 500 60px/19px 'pt_serifbold',arial, helvetica, sans-serif;
         text-align: center;
     }
@@ -230,7 +230,7 @@
         transition-duration: .25s;
       }
       .main__text{
-        margin: 65px 47px 36px 35px;
+        margin: 63px 44px 36px 48px;
         font: 18px/23px 'Roboto', arial, helvetica,sans-serif;
         text-align: center;
     }
@@ -304,7 +304,7 @@
     }
     
     .header {
-        padding: 56px 24px 56px 35px;
+        padding: 63px 33px 57px 44px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
@@ -325,7 +325,7 @@
     }
     
     .main {
-        padding: 109px 63% 100px 134px;
+        padding: 109px 63% 100px 142px;
         background: no-repeat url(img/111.png) 64% 48%, no-repeat url(img/123.png) 94% 48%, no-repeat url(img/33.png) 114% 48%;   
     }
     .main__title {
@@ -356,10 +356,10 @@
     }
     
     .header {
-        padding-left: 132px;
-    padding-right: 76px;
-    padding-top: 71px;
-    margin-bottom: 76px;
+        padding-left: 142px;
+        padding-right: 84px;
+        padding-top: 63px;
+        margin-bottom: 76px;
     }
 
     .menu__item {
@@ -368,7 +368,7 @@
     }
     
     .main {
-        padding: 77px 63% 100px 134px;
+        padding: 77px 63% 100px 143px;
         background: no-repeat url(img/111.png) 65% 28%, no-repeat url(img/123.png) 86% 31%, no-repeat url(img/33.png) 101% 32%;   
     }
     
@@ -415,13 +415,14 @@
             background: url('img/Vector1920.png');
         }
         .header {
-            padding-top: 80px;
-            padding-left: 191px;
-            padding-right: 112px;
+            padding-top: 90px;
+            padding-left: 197px;
+            padding-right: 118px;
             margin-bottom: 111px;
         }
         .main {
-            padding: 113px 50% 0 0;
+            padding: 113px 50% 0 9px;
+            background: no-repeat url(img/11920.png) 65% 83%, no-repeat url(img/21920.png) 86% 70%, no-repeat url(img/31920.png) 100% 71%;  
         }
     
         .main__title {
@@ -431,7 +432,7 @@
 
     
         .main__subtitle{
-            margin:-20px 320px 75px 275px;
+            margin:-20px 320px 72px 275px;
             font: 98px/27px bold Roboto, arial, helvetica,sans-serif;
             font-family: 'pt_serifbold', arial, helvetica,sans-serif;
         }
@@ -450,10 +451,6 @@
       .menu__item {
             font: 500 24px/19px bold Roboto, arial, helvetica,sans-serif;
             margin-right: 33px;
-        }
-        .main {
-            padding: 109px 63% 100px -1px;
-            background: no-repeat url(img/11920.png) 65% 83%, no-repeat url(img/21920.png) 86% 70%, no-repeat url(img/31920.png) 100% 71%;   
         }
     }
 
