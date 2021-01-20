@@ -2,19 +2,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+.body {
+    margin:0;
     width:100%;
 }
 
 .wrapper {
     margin:auto;
     width: 100%;
-    height: 768px;
-    background: url('img/iswanto-arif-448003-unsplash.png');
+    height: 100vh;
+    background-size: cover;
+    background: no-repeat url('img/iswanto-arif-448003-unsplash.png');
 }
 
 .header{
@@ -107,7 +105,7 @@ body {
 
     .wrapper {
         width: 100%;
-        background: no-repeat url(img/375.png);
+        /*background: no-repeat url(img/375.png);*/
     }
 
     .logotype{
@@ -240,8 +238,6 @@ body {
 @media(min-width:737px) {
     .wrapper {
         width: 100%;
-        height:667px;
-        background: url('img/1024.png');
     }
 
     .header {
@@ -262,7 +258,7 @@ body {
 
     .main {
         padding: 113px 60% 161px 78px;
-        background: no-repeat url(img/111.png) 70% 31%, no-repeat url(img/123.png) 114% 36%, no-repeat;
+        background: no-repeat url(img/111.png) 70% 31%, no-repeat url(img/123.png) 105% 36%, no-repeat;
     }
     
     .main__title {
@@ -293,11 +289,10 @@ body {
 @media(min-width:1024px) {
     .wrapper {
         width: 100%;
-        background: url('img/1024.png');
     }
     
     .header {
-        padding: 63px 33px 57px 44px;
+        padding: 63px 71px 57px 44px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
@@ -318,7 +313,7 @@ body {
     
     .main {
         padding: 109px 63% 100px 142px;
-        background: no-repeat url(img/111.png) 64% 48%, no-repeat url(img/123.png) 94% 48%, no-repeat url(img/33.png) 114% 48%;   
+        background: no-repeat url(img/111.png) 64% 48%, no-repeat url(img/123.png) 93% 48%, no-repeat url(img/33.png) 113% 48%;   
     }
 
     .main__title {
@@ -354,7 +349,7 @@ body {
         padding-left: 142px;
         padding-right: 84px;
         padding-top: 63px;
-        margin-bottom: 76px;
+        margin-bottom: 90px;
     }
 
     .menu__item {
@@ -364,7 +359,7 @@ body {
     
     .main {
         padding: 77px 63% 100px 143px;
-        background: no-repeat url(img/111.png) 65% 28%, no-repeat url(img/123.png) 86% 31%, no-repeat url(img/33.png) 101% 32%;   
+        background: no-repeat url(img/111.png) 65% 19%, no-repeat url(img/123.png) 85% 24%, no-repeat url(img/33.png) 100% 25%;   
     }
     
     .main__title {
@@ -416,12 +411,12 @@ body {
         padding-top: 90px;
         padding-left: 197px;
         padding-right: 118px;
-        margin-bottom: 111px;
+        margin-bottom: 124px;
     }
     
     .main {
         padding: 113px 50% 0 9px;
-        background: no-repeat url(img/11920.png) 65% 83%, no-repeat url(img/21920.png) 86% 70%, no-repeat url(img/31920.png) 100% 71%;  
+        background: no-repeat url(img/11920.png) 65% 79%, no-repeat url(img/21920.png) 85% 66%, no-repeat url(img/31920.png) 100% 68%;  
     }
     
     .main__title {
@@ -436,7 +431,7 @@ body {
     }
 
     .main__text {
-        margin: 22px 152px 38px 212px;
+        margin: 22px 152px 43px 212px;
         font: 23px/24px 'Roboto', arial, helvetica,sans-serif;
     }
     
