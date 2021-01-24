@@ -257,7 +257,7 @@
 
     .main {
         padding: 113px 60% 161px 78px;
-        background: no-repeat url(img/111.png) 70% 31%, no-repeat url(img/123.png) 105% 36%, no-repeat;
+        background: no-repeat url(img/111.png) 70% 31%, no-repeat url(img/123.png) 110% 34%, no-repeat;
     }
     
     .main__title {
@@ -342,6 +342,7 @@
 @media(min-width:1365px) {
     .wrapper {
         width: 100%;
+        background: no-repeat url('img/19201.png');
     }
     
     .header {
